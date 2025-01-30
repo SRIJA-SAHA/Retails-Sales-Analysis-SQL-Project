@@ -7,7 +7,9 @@ Database: retail_db
 <br>
 This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
 <br>
+<br>
 Objectives
+<br>
 <br>
 Set up a retail sales database: Create and populate a retail sales database with the provided sales data.
 <br>
@@ -19,7 +21,9 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 <br>
 Project Structure
 <br>
+<br>
 1. Database Setup
+ <br>
 <br>
 Database Creation: The project starts by creating a database named p1_retail_db.
 <br>
@@ -42,7 +46,9 @@ CREATE TABLE retail_sales
     total_sale FLOAT
    );
 <br>
+<br>
 1. Data Exploration & Cleaning
+ <br>
  <br>
 Record Count: Determine the total number of records in the dataset.
 <br>
@@ -72,7 +78,9 @@ WHERE
     gender IS NULL OR age IS NULL OR category IS NULL OR 
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
  <br>
+ <br>
 3. Data Analysis & Findings
+<br>
 <br>
 The following SQL queries were developed to answer specific business questions:
 <br>
@@ -183,7 +191,9 @@ SELECT
 FROM hourly_sale
 GROUP BY shift
 <br>
+<br>
 Findings
+<br>
 <br>
 Customer Demographics: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
 <br>
@@ -200,7 +210,9 @@ Trend Analysis: Insights into sales trends across different months and shifts.
 <br>
 Customer Insights: Reports on top customers and unique customer counts per category.
 <br>
+<br>
 Conclusion
+<br>
 <br>
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
 
